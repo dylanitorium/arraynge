@@ -18,6 +18,8 @@ or
 
 ```js
 
+const quickloop = require('quickloop');
+
 const range = quickloop(5); // [0, 1, 2, 3, 4]
 
 const offsetRange = quickloop(5, 2); // [2, 3, 4, 5, 6];
